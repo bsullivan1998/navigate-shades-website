@@ -85,13 +85,14 @@
       <div class="contact-form-wrap reveal reveal-delay-1">
         <form
           id="contact-form"
-          name="consultation-request"
           method="POST"
-          data-netlify="true"
-          netlify-honeypot="bot-field"
+          action="https://api.web3forms.com/submit"
         >
-          <input type="hidden" name="form-name" value="consultation-request">
-          <p style="display:none"><input name="bot-field"></p>
+          <input type="hidden" name="access_key" value="6a805c93-2d4c-4583-8970-66325809ad20">
+          <input type="hidden" name="subject" value="New Consultation Request — Navigate Window & Shade Co.">
+          <input type="hidden" name="from_name" value="Navigate Website">
+          <input type="hidden" name="redirect" value="false">
+          <input type="checkbox" name="botcheck" style="display:none">
 
           <div class="form-row">
             <div class="form-group">
