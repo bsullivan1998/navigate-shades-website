@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 591.0 148" width="591.0" height="148">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&amp;display=swap');
+    </style>
+  </defs>
+  
+  <text
+    x="0"
+    y="96"
+    font-family="'Poppins', sans-serif"
+    font-weight="300"
+    font-size="96"
+    fill="#ffffff"
+    letter-spacing="14"
+  >NAVIGAT</text>
+  <rect x="499.3" y="29.3" width="75.7" height="9.0" fill="#c9a84c"/>
+  <rect x="499.3" y="58.1" width="75.7" height="9.0" fill="#c9a84c"/>
+  <rect x="499.3" y="87.0" width="75.7" height="9.0" fill="#c9a84c"/>
+  <text
+    x="0"
+    y="140"
+    font-family="'Poppins', sans-serif"
+    font-weight="300"
+    font-size="15"
+    fill="rgba(255,255,255,0.55)"
+    letter-spacing="10.5"
+  >WINDOW &amp; SHADE CO.</text>
+</svg>

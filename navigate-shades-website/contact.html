@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Book your complimentary in-home design consultation with Navigate Window & Shade Co. Serving Stuart, Jupiter, Palm Beach Gardens, and all of South Florida.">
+<title>Book a Consultation | Navigate Window & Shade Co.</title>
+<link rel="canonical" href="https://navigateshades.com/contact">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header scrolled" id="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo">
+      <span class="logo-navigat" style="color:var(--teal)">NAVIGAT</span><span class="logo-e">≡</span>
+      <span class="logo-sub" style="color:var(--text-light)">WINDOW & SHADE CO.</span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="/residential.html">Residential</a>
+      <a href="/commercial.html">Commercial</a>
+      <a href="/services.html">Services</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html" class="nav-cta">Book Consultation</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span style="background:var(--teal)"></span>
+      <span style="background:var(--teal)"></span>
+      <span style="background:var(--teal)"></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+  <a href="/residential.html">Residential</a>
+  <a href="/commercial.html">Commercial</a>
+  <a href="/services.html">Services</a>
+  <a href="/about.html">About</a>
+  <a href="/contact.html">Book Consultation</a>
+  <div class="mobile-nav-contact">
+    <a href="tel:+15128206599">(512) 820-6599</a>
+    <a href="mailto:brice.s@navigateshades.com">brice.s@navigateshades.com</a>
+  </div>
+</div>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow eyebrow--light">Get Started</p>
+    <h1>Book Your Free<br><em>In-Home Consultation</em></h1>
+    <p>We come to you. Tell us about your home and we'll be in touch within one business day to schedule your complimentary in-home design visit — no showroom, no pressure, no obligation.</p>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h3>Let's Create Something <em>Exceptional</em></h3>
+        <p>We come to you — always. Every consultation happens in your home, with your light, in your actual space. We study your architecture, understand your vision, and return within 48 hours with a complete design proposal tailored to your specific home.</p>
+        <p>No showroom visit. No samples you have to imagine in your space. No obligation, ever. We serve homeowners, interior designers, and builders throughout the Treasure Coast and Palm Beach County.</p>
+
+        <div class="contact-detail">
+          <div class="contact-detail-item">
+            <div class="detail-label">Phone</div>
+            <div class="detail-value"><a href="tel:+15128206599">(512) 820-6599</a></div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="detail-label">Email</div>
+            <div class="detail-value"><a href="mailto:brice.s@navigateshades.com">brice.s@navigateshades.com</a></div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="detail-label">Service Area</div>
+            <div class="detail-value">Fort Pierce to Delray Beach, FL</div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="detail-label">Consultation</div>
+            <div class="detail-value">Always complimentary. No obligation.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap reveal reveal-delay-1">
+        <form
+          id="contact-form"
+          name="consultation-request"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="form-name" value="consultation-request">
+          <p style="display:none"><input name="bot-field"></p>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">First Name *</label>
+              <input type="text" id="first-name" name="first-name" required placeholder="Jane">
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name *</label>
+              <input type="text" id="last-name" name="last-name" required placeholder="Smith">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required placeholder="jane@email.com">
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="(561) 555-0100">
+          </div>
+
+          <div class="form-group">
+            <label for="city">City / Area *</label>
+            <select id="city" name="city" required>
+              <option value="" disabled selected>Select your city</option>
+              <option>Stuart</option>
+              <option>Jensen Beach</option>
+              <option>Hobe Sound</option>
+              <option>Jupiter</option>
+              <option>Tequesta</option>
+              <option>Juno Beach</option>
+              <option>Palm Beach Gardens</option>
+              <option>North Palm Beach</option>
+              <option>West Palm Beach</option>
+              <option>Lake Worth</option>
+              <option>Boynton Beach</option>
+              <option>Delray Beach</option>
+              <option>Fort Pierce</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="service">Primary Interest</label>
+            <select id="service" name="service">
+              <option value="" disabled selected>What are you most interested in?</option>
+              <option>Motorized Shades</option>
+              <option>Plantation Shutters</option>
+              <option>Roller Shades</option>
+              <option>Roman Shades</option>
+              <option>Drapery & Hardware</option>
+              <option>Outdoor Shades</option>
+              <option>Smart-Home Integration</option>
+              <option>Full Home — Multiple Treatments</option>
+              <option>Not Sure Yet</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Tell Us About Your Project</label>
+            <textarea id="message" name="message" placeholder="Number of windows, home type, any specific goals or questions..."></textarea>
+          </div>
+
+          <div class="form-submit">
+            <button type="submit" class="btn btn-primary">Request Your Free Consultation</button>
+          </div>
+          <p class="form-note">We respond within one business day. Your information is never shared.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-cta" style="padding:0;">
+  <div class="container" style="padding-bottom:80px; padding-top:0;">
+    <div style="background:var(--warm-grey); padding:40px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:24px;">
+      <div>
+        <p style="font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); margin-bottom:6px;">Prefer to Call?</p>
+        <p style="font-family:var(--font-display); font-size:28px; color:var(--teal); margin-bottom:0;">(512) 820-6599</p>
+      </div>
+      <p style="max-width:400px; font-size:14px; margin-bottom:0;">Available Monday through Friday. We typically answer same-day — because that's the service you deserve from the first call.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="logo logo--footer">
+          <span class="logo-navigat">NAVIGAT</span><span class="logo-e">≡</span>
+          <span class="logo-sub">WINDOW & SHADE CO.</span>
+        </a>
+        <p class="footer-tagline">Shade, Style & Smart Living.</p>
+        <div class="footer-contact">
+          <a href="tel:+15128206599">(512) 820-6599</a>
+          <a href="mailto:brice.s@navigateshades.com">brice.s@navigateshades.com</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="/services/motorized-shades.html">Motorized Shades</a>
+        <a href="/services/plantation-shutters.html">Plantation Shutters</a>
+        <a href="/services/drapery.html">Drapery & Hardware</a>
+        <a href="/services/outdoor-shades.html">Outdoor Shades</a>
+        <a href="/services/smart-home.html">Smart-Home Integration</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="/residential.html">Residential</a>
+        <a href="/commercial.html">Commercial</a>
+        <a href="/about.html">About Us</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Navigate Window & Shade Co., LLC. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="/privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
